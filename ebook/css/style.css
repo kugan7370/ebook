@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@300&family=Oswald:wght@600&display=swap');
+
+
+body {
+  font-family: "Poppins", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
+  /* font-family: "Montserrat", sans-serif; */
+  /* font-family: 'Georama', sans-serif; */
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  
+}
+
+li {
+  padding: 5px;
+}
+.nav-link {
+  font-size: 15px;
+  font-weight: bold;
+  border: 2px solid transparent;
+  margin-right: 50px;
+}
+/* .nav-link:hover {
+  border-bottom: 2px solid black;
+} */
+.blog-1 {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.main-navbar .nav-link {
+  font-size: 12px;
+  font-weight: bold;
+  border: 2px solid transparent;
+  margin-right: 50px;
+}
+/*category page */
+.category-navbar .navbar ul li {
+  margin-right: 25px;
+  margin-left: 10px;
+}
+.category-navbar .nav-link {
+  font-size: 12px;
+  color: #aaa3a3;
+  font-weight: bolder;
+}
+.category-navbar .nav-link:hover {
+  border-bottom: 2px solid rgb(110, 109, 109);
+}
+
+.category-details a {
+  font-size: 12px;
+  letter-spacing: 3px;
+}
+.category-details .category-text {
+  font-size: 13px;
+  letter-spacing: 2px;
+}
+/*end category page */
+.bg-new {
+  background-color: rgba(40, 58, 90, 0.9);
+}
+
+/* book image control FOR DETAILS PAGE */
+.book-image {
+  width: 400px;
+  height: 550px;
+  padding: 30px;
+  border-radius: 3%;
+  box-shadow: #fff;
+}
+.book img {
+  border-radius: 5%;
+}
+
+/* login page */
+.line {
+  height: 1px;
+
+  background-color: #e0e0e0;
+}
+
+/* .or {
+  width: 5%;
+} */
+.sign {
+  margin-right: 70px;
+}
+.bg-blue {
+  background-color: #1a237e;
+  color: whitesmoke;
+}
+/* index page */
+.bg-banner {
+  background: #101635;
+}
+.new-purple {
+  color: #101635;
+}
+
+.banner {
+  width: 100%;
+  height: 70vh;
+  background: #37517e;
+}
+.color-pink{
+  color: #ff468d;
+}
+.bg-pink{
+  background: #ff468d;
+}
+.btn-banner {
+  background: #209dd8;
+  padding: 10px 28px 11px 28px;
+  border-radius: 50px;
+  color: #fff;
+}
+.btn-banner:hover {
+  background: #209dd8;
+  color: #fff;
+}
+.text-space {
+  letter-spacing: 1px;
+}
+.text-quote {
+  color: #ffffff99;
+  letter-spacing: 2px;
+}
+/* .about {
+  margin-top: 80px;
+} */
+/* .index-page .card:hover {
+  box-shadow: -3px 1px 27px -11px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -3px 1px 27px -11px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -3px 1px 27px -11px rgba(0, 0, 0, 0.75);
+  transition: 0.5s;
+} */
+@media (min-width: 768px) {
+  .category-images img {
+    height: 300px;
+    width: 100%;
+  }
+}
+/* @media (max-width: 768px) {
+.category-images img {
+    height: 100px;
+    width: 50px;
+  }
+} */
+.book-content p {
+  text-align: justify;
+}
+.rounded-10 {
+  border-radius: 10px;
+}
+.about{
+  background-image: url(/images/section_bg02.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* padding-top: 50px; */
+ 
+}
+.section-bg {
+  background-color: #f3f5fa;
+}
+.section-title h2 {
+  
+  font-weight:bolder;
+  text-transform: uppercase;
+  color: #37517e;
+  font-family: "Roboto", sans-serif;
+}
+.why_we{
+  /* margin-top: 100px; */
+  padding-top: 50px;
+}
+.borders{
+  border-radius: 5%;
+}
+.cliens{
+  border-bottom-left-radius: 2%;
+  border-bottom-right-radius: 2%;
+}
+.p-font{
+   font-family: "Roboto", sans-serif;
+  letter-spacing: 2px;
+  
+}
+.oswald{
+  font-family: 'Oswald', sans-serif;
+}
+.footer-area {
+  background-image: url(/images/section_bg03.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bg-front{
+  background-color: #010127;
+}
+.latest-book{
+  margin-top: 100px;
+  margin-bottom: 50px;
+  
+  
+  
+}
+.img-redious{
+  border-radius: 2%;
+}
+.books-margin{
+  margin-top: 50px;
+}
+@media (min-width: 768px) {
+  .latest-book img{
+    height: 400px;
+  }
+  }
+
+
+.font-oswalt{
+  font-family: 'Oswald', sans-serif;
+  
+}
+.font-color{
+  color: #37517e;
+}
+.img-size{
+height: 150px;
+width: 150px;
+}
+.about-us{
+  margin-top: 50px;
+}
+.forgot{
+  margin-top: 100px;
+}
+.footer_section{
+  margin-top: 73px;
+}
+.bg-red{
+  background-color: red;
+}
+.reset_footer{
+  margin-top: 50px;
+}

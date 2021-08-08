@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@300&family=Oswald:wght@600&display=swap');
+:root {
+  --offcanvas-width: 250px; /*declare variable for ofcanvas*/
+  --topNavbar-height: 68px;
+}
+
+.sidevar-nav {
+  width: var(--offcanvas-width);
+}
+
+.sidebar-link {
+  display: flex;
+  align-items: center;
+}
+.sidebar-link .right-icon {
+  display: inline-flex;
+}
+.sidebar-link[aria-expanded="true"] .right-icon {
+  /* css animation for right icon button */
+  transform: rotate(180deg);
+  transition: all ease 0.25s;
+}
+@media (min-width: 992px) {
+  body {
+    overflow: auto !important;
+  }
+  .offcanvas-backdrop::before {
+    display: none;
+  }
+  .sidevar-nav {
+    transform: none;
+    visibility: visible !important; /* for visible sidebar */
+    top: var(--topNavbar-height); /* from top 56px; */
+    height: calc(100%-var(transform)); /*make 100% height */
+  }
+  main {
+    margin-left: var(--offcanvas-width);
+  }
+}
+
+.bg-new {
+  background-color: rgba(40, 58, 90, 0.9);
+}
+.bg-banner {
+  background: #101635;
+  color: aliceblue;
+}
+.font-oswalt{
+  font-family: 'Oswald', sans-serif;
+  
+}
